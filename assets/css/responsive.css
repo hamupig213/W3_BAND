@@ -1,0 +1,97 @@
+/* CSS PC */
+@media (min-width: 64em) {
+}
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+  .s-full-width {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 15px 16px;
+  }
+
+  #nav .subnav a {
+    padding: 5px 12px;
+  }
+
+  .contact-form .form-control {
+    padding: 15px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  #footer .socials-list {
+    font-size: 24px;
+  }
+
+  #footer .socials-list a {
+    margin: 0 8px;
+  }
+
+  #footer .copyright a {
+    padding: 12px 0;
+    display: inline-block;
+  }
+}
+
+/* CSS Tablet*/
+@media (min-width: 46.3125em) and (max-width: 63.9375em) {
+}
+
+/* CSS Mobile */
+@media (max-width: 46.25em) {
+  .s-full-width,
+  .s-col-full {
+    width: 100%;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #eee;
+  }
+
+  #nav .subnav a {
+    color: #000;
+    padding: 2px 40px;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
+
+  .contact-form {
+    margin-top: 16px;
+  }
+}
